@@ -1,0 +1,13 @@
+header{
+    background-color: bisque;
+}
+
+.logo-container{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}
+
+p{
+    color: red;
+}

@@ -10,26 +10,84 @@
 </head>
 <body>
     <main>
-        <header>
-            <div>
-                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" class="logo">
-            </div>
-            <div>
-                <ul>
-                    <li>Features</li>
-                    <li>How It Works</li>
-                    <li>Pricing</li>
-                </ul>
-            </div>
-        </header>
-        <form action="submit" class="form">
+        <div>
+            <header id="header">
+                <div class="logo-container">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="header-img">
+                </div>
+                <div>
+                    <nav id="nav-bar">
+                        <ul>
+                            <li class="nav-link"><a href="#features_container">Features</a></li>
+                            <li class="nav-link"><a href="#video">How It Works</a></li>
+                            <li class="nav-link"><a href="#prices_container">Pricing</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
             <h1>Handcrafted, home-made masterpieces</h1>
-            <input type="email" placeholder="Enter your email address">
-            <button>GET STARTED</button>
+            <input id="email" placeholder="Enter your email address" name="email" type="email" required="">
+            <input id="submit" type="submit" value="GET STARTED"></input>
         </form>
         <section>
-            <img src="" alt="">
+            <div id="features_container">
+                <i></i>
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <div id="features_container">
+                <i></i>
+                <h2> Fast Shipping</h2>
+                <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div id="features_container">
+                <i></i>
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of the instrument.</p>
+            </div>
         </section>
+        <section>
+            <iframe src="https://youtu.be/y8Yv4pnO7qc" frameborder="0" id="video"></iframe>
+            <div id="prices_container">
+                <h3>TENOR TROMBONE</h3>
+                <p>$600</p>
+                <p>
+                    Lorem ipsum.</br>
+                    Lorem ipsum.</br>
+                    Lorem ipsum dolor.</br>
+                    Lorem ipsum.
+                </p>
+                <button>SELECT</button>
+            </div>
+            <div id="prices_container">
+                <h3>BASS TROMBONE</h3>
+                <p>$900</p>
+                <p>
+                    Lorem ipsum.</br>
+                    Lorem ipsum.</br>
+                    Lorem ipsum dolor.</br>
+                    Lorem ipsum.
+                </p>
+                <button>SELECT</button>
+            </div>
+            <div id="prices_container">
+                <h3>VALVE TROMBONE</h3>
+                <p>$1200</p>
+                <p>
+                    Lorem ipsum.</br>
+                    Lorem ipsum.</br>
+                    Lorem ipsum dolor.</br>
+                    Lorem ipsum.
+                </p>
+                <button>SELECT</button>
+            </div>
+        </section>
+        <footer>
+            <p>Privacy  Terms   Contact</p>
+            <p>Copyright 2016, Original Trombones</p>
+        </footer>
     </main>
 </body>
 </html>
