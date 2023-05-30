@@ -5,49 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product-landing-page</title>
-    <link rel="stylesheet" href="product_landing_page/index.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 <body>
+    <div class="body-wrapper">
     <main>
-        <div>
-            <header id="header">
-                <div class="logo-container">
-                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="header-img">
-                </div>
-                <div>
-                    <nav id="nav-bar">
-                        <ul>
-                            <li class="nav-link"><a href="#features_container">Features</a></li>
-                            <li class="nav-link"><a href="#video">How It Works</a></li>
-                            <li class="nav-link"><a href="#prices_container">Pricing</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-        </div>
+        <header id="header">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="trambone_logo" id="header-img">
+            <nav id="navbar">
+                <div class="navbar-links">
+                    <ul>
+                        <li class="nav-link"><a href="#features_container">Features</a></li>
+                        <li class="nav-link"><a href="#video">How It Works</a></li>
+                        <li class="nav-link"><a href="#prices_container">Pricing</a></li>
+                    </ul>
+                    </div>
+                </nav>
+        </header>
         <form action="https://www.freecodecamp.com/email-submit" id="form">
             <h1>Handcrafted, home-made masterpieces</h1>
-            <input id="email" placeholder="Enter your email address" name="email" type="email" required="">
-            <input id="submit" type="submit" value="GET STARTED"></input>
+            <div class="input">
+                <input id="email" placeholder="Enter your email address" name="email" type="email" required=""> </br>
+                <input id="submit" type="submit" value="GET STARTED">
+            </div>
         </form>
-        <section>
-            <div id="features_container">
-                <i></i>
-                <h2>Premium Materials</h2>
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-            </div>
-            <div id="features_container">
-                <i></i>
-                <h2> Fast Shipping</h2>
-                <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-            </div>
-            <div id="features_container">
-                <i></i>
-                <h2>Quality Assurance</h2>
-                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of the instrument.</p>
-            </div>
-        </section>
+        <div class="container">
+            <section>
+                <div class="grid">
+                    <div id="features_container">
+                        <div class="icon">
+                            <i></i>
+                        </div>
+                        <div class="desc">
+                        <h2>Premium Materials</h2>
+                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div id="features_container">
+                        <i></i>
+                        <h2> Fast Shipping</h2>
+                        <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div id="features_container">
+                    <i></i>
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of the instrument.</p>
+                </div>
+            </section>
+        </div>
         <section>
             <iframe src="https://youtu.be/y8Yv4pnO7qc" frameborder="0" id="video"></iframe>
             <div id="prices_container">
@@ -89,5 +98,6 @@
             <p>Copyright 2016, Original Trombones</p>
         </footer>
     </main>
+    </div>
 </body>
 </html>
