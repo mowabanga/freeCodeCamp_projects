@@ -14,12 +14,12 @@
     <main>
         <header id="header">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="trambone_logo" id="header-img">
-            <nav id="navbar">
+            <nav id="nav-bar">
                 <div class="navbar-links">
                     <ul>
-                        <li class="nav-link"><a href="#features_container">Features</a></li>
-                        <li class="nav-link"><a href="#video">How It Works</a></li>
-                        <li class="nav-link"><a href="#prices_container">Pricing</a></li>
+                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#video">How It Works</a></li>
+                        <li><a class="nav-link" href="#prices">Pricing</a></li>
                     </ul>
                     </div>
                 </nav>
@@ -38,7 +38,7 @@
                         <i class="fa fa-3x fa-fire"></i>
                     </div>
                     <div class="desc">
-                        <h2>Premium Materials</h2>
+                        <h2 id="features">Premium Materials</h2>
                         <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <i class="fa fa-3x fa-truck"></i>
                     </div>
                     <div class="desc">
-                        <h2> Fast Shipping</h2>
+                        <h2 id="features"> Fast Shipping</h2>
                         <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                         <i class="fa fa-3x fa-battery"></i>
                     </div>
                     <div class="desc">
-                        <h2>Quality Assurance</h2>
+                        <h2 id="features">Quality Assurance</h2>
                         <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of the instrument.</p>
                     </div>
                 </div>
@@ -65,44 +65,56 @@
         <section class="video_section">
             <iframe src="https://youtu.be/y8Yv4pnO7qc" frameborder="0" id="video"></iframe>
         </section>
-        <section>
+        <section class="pricing">
             <div id="tenor" class="product">
-                <div>TENOR TROMBONE</div>
-                <h2>$600</h2>
+                <div class="level">TENOR TROMBONE</div>
+                <h2 id="prices">$600</h2>
                 <p>
                     Lorem ipsum.</br>
                     Lorem ipsum.</br>
                     Lorem ipsum dolor.</br>
                     Lorem ipsum.
                 </p>
-                <button>SELECT</button>
+                <button class="price-btn">SELECT</button>
             </div>
             <div id="bass" class="product">
-                <div>BASS TROMBONE</div>
-                <h2>$900</h2>
+                <div class="level">BASS TROMBONE</div>
+                <h2 id="prices">$900</h2>
                 <p>
                     Lorem ipsum.</br>
                     Lorem ipsum.</br>
                     Lorem ipsum dolor.</br>
                     Lorem ipsum.
                 </p>
-                <button>SELECT</button>
+                <button class="price-btn">SELECT</button>
             </div>
             <div id="valve" class="product">
-                <div>VALVE TROMBONE</div>
-                <h2>$1200</h2>
+                <div class="level">VALVE TROMBONE</div>
+                <h2 id="prices">$1200</h2>
                 <p>
                     Lorem ipsum.</br>
                     Lorem ipsum.</br>
                     Lorem ipsum dolor.</br>
                     Lorem ipsum.
                 </p>
-                <button>SELECT</button>
+                <button class="price-btn">SELECT</button>
             </div>
         </section>
         <footer>
-            <p>Privacy  Terms   Contact</p>
-            <p>Copyright 2016, Original Trombones</p>
+            <ul>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <span>
+                <p>Copyright 2016, Original Trombones</p>
+            </span>
         </footer>
     </main>
     </div>
