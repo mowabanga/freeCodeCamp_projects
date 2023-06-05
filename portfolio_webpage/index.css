@@ -1,0 +1,124 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #be3144;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    top: 0;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: x-large;
+    background-color: #be3144;
+}
+
+a:hover {
+    background-color: #45567d;
+}
+
+#welcome-section {
+    height: 700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-sect {
+    height: 950px;
+}
+
+#projects {
+    background-color: #45567d;
+    color: white;
+}
+
+.intro {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.line {
+    width: 550px;
+    height: 1.5px;
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 3px;
+}
+
+.tiles-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tiles {
+    height: 360px;
+    width: 400px;
+    background-color: blanchedalmond;
+    margin: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button, a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a {
+    background-color: #303841;
+}
+
+.socials {
+    background-color: #303841;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.socials-sect {
+    display: block;
+    text-align: center;
+}
+
+.socials-sect h1 {
+    font-size: xx-large;
+    padding: 1px;
+}
+
+.socials-sect p {
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
