@@ -8,12 +8,22 @@ body {
     padding: 0;
 }
 
+@media screen and (min-width: 400px) {
+    #navbar {
+        background-color: aqua;
+    }
+}
+
+
 #navbar {
     display: flex;
     top: 0;
     justify-content: flex-end;
     margin: 0;
     padding: 0;
+    width: 100%;
+    background-color: #be3144;
+    position: fixed;
 }
 
 ul {
@@ -81,6 +91,16 @@ a:hover {
     margin: 20px;
 }
 
+.project-image {
+    height: calc(100% - 2rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    display: block;
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -96,6 +116,16 @@ a {
     background-color: #303841;
 }
 
+.btn-show-all {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-show-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
 .socials {
     background-color: #303841;
     color: white;
@@ -121,4 +151,9 @@ a {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
+}
+
+.icons {
+    margin-top: 20%;
+    padding: 40px;
 }
